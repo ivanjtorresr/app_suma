@@ -12,7 +12,7 @@ def on_sum():
         messagebox.showerror("Error", "Introduce dos números válidos")
 
 root = tk.Tk()
-root.title("Suma rápida")
+root.title("Suma")
 
 frame = tk.Frame(root, padx=10, pady=10)
 frame.pack()
