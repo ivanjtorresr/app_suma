@@ -9,7 +9,7 @@ def on_sum():
         resultado = sum_two(a, b)
         label_result.config(text=f"Resultado: {resultado}")
     except ValueError:
-        messagebox.showerror("Error", "Introduce dos números válidos")
+        messagebox.showerror("Error", "Introduce dos números")
 
 root = tk.Tk()
 root.title("Suma")
